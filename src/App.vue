@@ -61,8 +61,12 @@ export default {
 </script>
 
 <style>
-body {
-  background-image: url('src/assets/sawit.png');
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  background-color: rgb(184, 234, 196);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
